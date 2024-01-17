@@ -1,0 +1,12 @@
+#Train/Validation/Test sets as
+
+## 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+
+#path: dataset root dir 
+train: /home/erwin19t/Documents/Tesis/Dataset/Characters_Dataset/Train
+val: /home/erwin19t/Documents/Tesis/Dataset/Characters_Dataset/Validation
+# test:  # test images (optional)
+
+# Classes
+nc: 34  # number of classes
+names: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '-', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
