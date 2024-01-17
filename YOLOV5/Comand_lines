@@ -1,0 +1,9 @@
+git clone https://github.com/ultralytics/yolov5.git
+
+wget https://github.com/ultralytics/yolov5/releases/download/v6.0/yolov5s.pt
+
+
+python3 train.py --img 928 --batch 6 --epochs 200 --data /home/erwin19t/Documents/Tesis/YOLOV5/data/Dataset_Plate.yaml --weights r"/home/erwin19t/Documents/Tesis/YOLOV5/yolov5s.pt" --nosave --cache ram
+
+
+python3 train.py --img 928 --batch 6 --epochs 200 --data /home/erwin19t/Documents/Tesis/YOLOV5/data/Dataset_Characters.yaml --weights r"/home/erwin19t/Documents/Tesis/YOLOV5/yolov5s.pt" --nosave --cache ram
