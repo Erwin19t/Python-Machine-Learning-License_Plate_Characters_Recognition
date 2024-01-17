@@ -120,8 +120,8 @@ def image_mode(args, path, recognition_model):
     
     #Cropped image is passed through the second model
     characters_Plate = recognition_model.characters_recognition(cropped_image)
-    print(characters_Plate)
-    #funcion de asociacion az
+    
+    #Extract characte's column of "characters_plate" matrix
     plate = get_characters(characters_Plate)
     print("La placa reconocida es:", plate)
 
